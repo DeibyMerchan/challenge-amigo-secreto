@@ -12,7 +12,6 @@ function agregarAmigo(){
         listaAmigos.push(amigoIngresado);
         enlistar();
         limpiarCaja('amigo');
-
         }
     return console.log(listaAmigos);
 }
@@ -34,12 +33,13 @@ function sortearAmigo(){
         let rango = Math.floor(Math.random() * listaAmigos.length);
         // Variable donde se alamacena el indice sorteado
         let amigoSorteado = listaAmigos[rango];
-        
         console.log(amigoSorteado);
         // Muestra el valor sorteado
         document.getElementById("resultado").innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
         // Elimina los valores de la array
-        listaAmigos.splice(amigoSorteado,);
+        listaAmigos.splice(amigoSorteado);
+        // Actualiza la lista.
+        enlistar();
 }
 // Limpia la caja
 function limpiarCaja(elemento){
