@@ -19,7 +19,7 @@
 ✅ ¡Y mucho más! 🎁
 
 ## 📷 Vista Previa
-![Vista Previa](assets/Captura de pantalla 2025-02-06 220135.png)
+![Vista Previa](vista-previa.png)
 
 ## 🔧 Tecnologías Utilizadas
 💻 **HTML** - Para la estructura del proyecto.  
